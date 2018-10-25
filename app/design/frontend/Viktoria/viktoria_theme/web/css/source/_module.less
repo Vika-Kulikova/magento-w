@@ -1,0 +1,58 @@
+& when (@media-common = true) {
+
+  .breadcrumbs .items {
+    background: red;
+  }
+
+  .action.primary {
+    background: red;
+  }
+
+  .example-button {
+    //background-color: red;
+    //width: 100px;
+    //padding: 15px 0px;
+    //&:hover {
+    //  background-color: #fff;
+    //}
+    //border: blue;
+    .lib-button (
+      @_button-width: 150px,
+      @_button-padding: 15px,
+      @_button-background: orange,
+      @_button-border: 2px solid blue
+    );
+
+    &:hover {
+      .lib-button (
+        @_button-background-hover: yellow,
+        @_button-padding: 15px,
+        @_button-border-hover: 2px solid green
+
+      )
+    }
+  }
+
+  .example-button-2 {
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    background-color: purple;
+    color: yellow;
+    border-color: yellow;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: yellow;
+      border-color: purple;
+      color: purple;
+    }
+  }
+
+  //@button-primary__active__background: @color-orange-red4;
+
+  .new-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}

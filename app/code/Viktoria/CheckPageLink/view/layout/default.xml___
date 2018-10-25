@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="privacy-policy-link" remove="true"/>
+        <referenceBlock name="contact-us-link" remove="true"/>
+
+        <referenceBlock name="footer_links">
+
+            <!--Privacy and Cookie Policy 4-->
+            <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="privacy-policy-link">-->
+                <!--<arguments>-->
+                    <!--<argument name="label" xsi:type="string" translate="true">Privacy and Cookie Policy</argument>-->
+                    <!--<argument name="path" xsi:type="string">privacy-policy-cookie-restriction-mode</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+
+            <!--&lt;!&ndash;Search Terms - &ndash;&gt;-->
+            <!--<block class="Magento\Framework\View\Element\Html\Link\Current" ifconfig="catalog/seo/search_terms" name="search-term-popular-link">-->
+                <!--<arguments>-->
+                    <!--<argument name="label" xsi:type="string" translate="true">Search Terms</argument>-->
+                    <!--<argument name="path" xsi:type="string">search/term/popular</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+
+            <!--&lt;!&ndash;Orders and Returns - &ndash;&gt;-->
+            <!--<block class="Magento\Sales\Block\Guest\Link" name="sales-guest-form-link">-->
+                <!--<arguments>-->
+                    <!--<argument name="label" xsi:type="string" translate="true">Orders and Returns</argument>-->
+                    <!--<argument name="path" xsi:type="string">sales/guest/form</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+
+            <!--&lt;!&ndash;Advanced Search - &ndash;&gt;-->
+            <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="catalog-search-advanced-link">-->
+                <!--<arguments>-->
+                    <!--<argument name="label" xsi:type="string" translate="true">Advanced Search</argument>-->
+                    <!--<argument name="path" xsi:type="string">catalogsearch/advanced</argument>-->
+                    <!--<argument name="attributes" xsi:type="array">-->
+                        <!--<item name="data-action" xsi:type="string">advanced-search</item>-->
+                    <!--</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+
+            <!--contact us 7 -->
+            <!--<block class="Magento\Framework\View\Element\Html\Link\Current" ifconfig="contact/contact/enabled" name="contact-us-link">-->
+                <!--<arguments>-->
+                    <!--<argument name="label" xsi:type="string" translate="true">Contact Us</argument>-->
+                    <!--<argument name="path" xsi:type="string">contact</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+
+
+            <!--my page-->
+            <block class="Magento\Cms\Block\Widget\Page\Link" name="catalog-search-my-page-link" template="ChackPageLinck::widget/link/link_list.phtml">
+                <arguments>
+                    <argument name="page_id" xsi:type="number">8</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>

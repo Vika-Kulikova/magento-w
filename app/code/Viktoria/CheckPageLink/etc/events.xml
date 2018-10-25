@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="check_page_link">
+        <observer name="viktoria_check_page_link" instance="Viktoria\CheckPageLink\Observer\MyObserver" />
+    </event>
+</config>

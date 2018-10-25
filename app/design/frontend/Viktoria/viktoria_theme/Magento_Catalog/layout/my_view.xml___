@@ -1,0 +1,71 @@
+<!--<?xml version="1.0"?>-->
+
+
+<!--Create a container-->
+<container name="some.container" as="someContainer" label="Some Container" htmlTag="div" htmlClass="some-container"
+           xmlns:xsi="http://symfony.com/schema/dic/services"></container>
+
+        <!--Reference a container-->
+<referenceContainer name="header.panel">
+    <block class="Magento\Framework\View\Element\Html\Links" name="header.links">
+        <arguments>
+            <argument name="css_class" xsi:type="string">header links</argument>
+        </arguments>
+    </block>
+</referenceContainer>
+
+
+
+        <!--Create a block-->
+
+<block class="Magento\Catalog\Block\Product\View\Description" name="product.info.sku"
+       template="product/view/attribute.phtml" after="product.info.type">
+<arguments>
+    <argument name="at_call" xsi:type="string">getSku</argument>
+    <argument name="at_code" xsi:type="string">sku</argument>
+    <argument name="css_class" xsi:type="string">sku</argument>
+</arguments>
+</block>
+
+        <!--Reference a block-->
+<referenceBlock name="logo">
+    <arguments>
+         <argument name="logo_file" xsi:type="string">images/logo.png</argument>
+    </arguments>
+</referenceBlock>
+
+
+        <!--the template used by a block-->
+
+<!--using the template attribute-->
+<referenceBlock name="page.main.title" template="%Magento_Catalog::new_template.phtml%"></referenceBlock>
+
+ <!--using the template <argument>-->
+<referenceBlock name="page.main.title">
+    <arguments>
+        <argument name="template" xsi:type="string">%Magento_Catalog::new_template.phtml%</argument>
+    </arguments>
+</referenceBlock>
+
+
+        <!--Modify block arguments-->
+
+<!--Initial block declaration-->
+<block class="Namespace_Module_Block_Type" name="block.example">
+    <arguments>
+        <argument name="lable" xsi:type="string"> Block Label</argument>
+    </arguments>
+</block>
+
+<!--Extending layout:-->
+<referenceBlock name="block.example">
+    <arguments>
+        <!-- Modified block argument -->
+        <argument name="label" xsi:type="string"> New Block Label</argument>
+        <!--Newly added block argument -->
+        <argument name="custome_label" xsi:type="string">Custom Block Label</argument>
+    </arguments>
+</referenceBlock>
+
+
+        <!--Rearrange elements-->
