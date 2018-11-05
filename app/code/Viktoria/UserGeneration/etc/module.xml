@@ -6,9 +6,5 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Viktoria_CheckPageLink" setup_version="2.0.13">
-        <sequence>
-            <module name="Magento_Cms" />
-        </sequence>
-    </module>
+    <module name="Viktoria_UserGeneration" setup_version="2.0.13" />
 </config>

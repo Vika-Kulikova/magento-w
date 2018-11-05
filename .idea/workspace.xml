@@ -2,66 +2,175 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa10b60d-409a-4a39-9716-f63b346a84d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Block/HelloWorld.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Controller/Index/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/etc/frontend/routes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/etc/module.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/registration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/view/frontend/layout/addcustomer_index_index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/view/frontend/templates/hello-block.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Observer/MyObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/events.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/frontend/routes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/module.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/registration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/layout/default.xml___" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/templates/widget/link/link_list.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/adminhtml/Vendor/admin_theme_new/media/preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/adminhtml/Vendor/admin_theme_new/my_custon_module/etc/adminhtml/di.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/adminhtml/Vendor/admin_theme_new/my_custon_module/etc/module.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/adminhtml/Vendor/admin_theme_new/registration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/adminhtml/Vendor/admin_theme_new/theme.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/layout/catalog_product_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/layout/my_view.xml___" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/templates/product/view/button.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Checkout/templates/cart/minicart.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Checkout/web/template/minicart/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/layout/default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/templates/widget/link/link_list.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/templates/widget/static_block/default.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Customer/layout/default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Review/templates/form.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Sales/email/order_new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/layout/default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/templates/html/breadcrumbs.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/templates/widget/link/link_list.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/etc/view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/media/preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/registration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/theme.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/web/css/_email-extend.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/web/css/_email-variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/web/css/source/_module.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/web/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/magento_git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/magento_git.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Console/AdminUserCreateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Console/Sayhello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Console/UserCreateCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/etc/di.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Block/CheckPageId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/frontend/layout/default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactlist/Contactslist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/AddDefaultAddress.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/GenerationCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Controller/Test/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Contact/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Setup/InstallSchema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/layout/userGeneration_test_index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/templates/test_contacts.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/di.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/frontend/routes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/module.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/magento" beforeDir="false" afterPath="$PROJECT_DIR$/bin/magento" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/tools/grunt/configs/themes.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/tools/grunt/configs/themes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/errors/local.xml.sample" beforeDir="false" afterPath="$PROJECT_DIR$/pub/errors/local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/.regenerate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Observer/MyObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Observer/CmsPageRender.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/frontend/routes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/frontend/routes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/module.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/module.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/layout/default.xml___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/templates/widget/link/link_list.phtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/layout/default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/layout/default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/templates/widget/link/link_list.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/frontend/templates/widget/link/link_list.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/etc/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/etc/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Dotdigitalgroup/Email/Model/Sales/CouponGridFiltererFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Klarna/Core/Model/Config/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/AdminNotification/Model/FeedFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/AdminNotification/Model/InboxFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/AdminNotification/Model/ResourceModel/System/Message/Collection/SynchronizedFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Authorization/Model/Acl/Role/GroupFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Authorization/Model/Acl/Role/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Authorization/Model/ResourceModel/Role/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Authorization/Model/ResourceModel/Rules/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Authorization/Model/Role/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Authorization/Model/RulesFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Block/Widget/Button/ItemFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Helper/Data/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/Auth/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/Auth/Session/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/Auth/Session/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/GlobalSearch/SearchEntityFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/Menu/Builder/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/Menu/Filter/IteratorFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/MenuFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/Session/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/UrlFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductAttributeMediaGalleryEntryExtension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductAttributeMediaGalleryEntryExtensionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductAttributeMediaGalleryEntryExtensionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductAttributeMediaGalleryEntryInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductExtensionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductLinkExtension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductLinkExtensionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductLinkExtensionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRender/ButtonInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRender/FormattedPriceInfoInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRender/ImageInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRender/PriceInfoExtension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRender/PriceInfoExtensionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRender/PriceInfoExtensionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRender/PriceInfoExtensionInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRender/PriceInfoInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRenderExtension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRenderExtensionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Api/Data/ProductRenderExtensionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Block/Product/AbstractProduct/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Attribute/Backend/Price/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Attribute/Backend/Sku/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Attribute/Source/Status/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Configuration/Item/OptionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Link/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/OptionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Type/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ProductFrontendActionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ProductRenderFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ProductRenderSearchResults.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ProductRenderSearchResultsFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ProductTypes/Config/Reader/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Config/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Eav/AttributeFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Product/Collection/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Product/Collection/ProductLimitationFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Product/Compare/Item/Collection/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/ProductFrontendAction/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Url/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/CatalogInventory/Model/ResourceModel/Stock/StatusFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/CatalogSearch/Controller/Advanced/Index/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/CatalogSearch/Model/ResourceModel/Advanced/Collection/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/CatalogSearch/Model/ResourceModel/AdvancedFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/CatalogUrlRewrite/Model/Storage/DbStorage/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Cms/Api/Data/BlockInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Cms/Api/Data/BlockSearchResultsInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Cms/Controller/Adminhtml/Block/Edit/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Cms/Controller/Adminhtml/Block/Index/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Cms/Controller/Adminhtml/Page/Index/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Cms/Controller/Index/Index/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Cms/Controller/Page/View/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Cms/Model/BlockFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Cms/Model/ResourceModel/Block/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Config/Model/Config/Backend/Encrypted/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Customer/CustomerData/Customer/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/Entity/Attribute/Source/BooleanFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Api/Data/VideoContentInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/App/Config/Initial/Reader/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/App/State/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Authorization/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Data/Form/FormKey/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/HTTP/Adapter/CurlFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Indexer/IndexerInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Search/Request/Config/FilesystemReader/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Stdlib/Cookie/PublicCookieMetadataFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/Validator/DataObjectFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/View/PageLayout/ConfigFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Indexer/Model/Config/Data/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Indexer/Model/ResourceModel/Indexer/State/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Integration/Model/ConfigBasedIntegrationManager/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Integration/Model/IntegrationFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Integration/Model/IntegrationService/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Integration/Model/Oauth/ConsumerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Integration/Model/Oauth/TokenFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Msrp/Api/Data/ProductRender/MsrpPriceInfoInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Msrp/Model/Product/Options/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Payment/Api/Data/PaymentMethodInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Payment/Helper/Data/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Paypal/Model/Billing/AgreementFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Quote/Api/Data/ShippingMethodInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderExtension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderExtensionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderExtensionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Api/Data/OrderSearchResultInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Controller/Guest/Form/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/Order/StatusFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/OrderRepository/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Sales/Model/ResourceModel/Order/Status/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Search/Controller/Term/Popular/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Search/Model/ResourceModel/Query/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Security/Model/AdminSessionInfoFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Security/Model/ResourceModel/AdminSessionInfo/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Theme/Model/ResourceModel/Theme/Collection/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Theme/Model/ResourceModel/Theme/Data/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Api/Data/BookmarkInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Api/Data/BookmarkSearchResultsInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Component/Control/ItemFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Component/Wrapper/BlockFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Config/Reader/DomFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Config/ReaderFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Ui/Controller/Adminhtml/Index/Render/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/User/Model/User/Interceptor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Vault/Api/Data/PaymentTokenSearchResultsInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Vault/Model/ResourceModel/PaymentToken/CollectionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Weee/Api/Data/ProductRender/WeeeAdjustmentAttributeInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Magento/Widget/Model/WidgetFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/CollectionPointSearchResultInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/QuoteCollectionPointInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Api/Data/CollectionPoint/SearchRequestInterfaceFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/Model/Checkout/Schema/CheckoutFieldFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/ViewModel/Order/OrderDetails/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/code/Temando/Shipping/ViewModel/Shipment/ShipmentDetails/Proxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/var/.htaccess" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,78 +182,44 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53383976">
+    <splitter split-orientation="horizontal" split-proportion="0.5467109">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/layout/default.xml">
+            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/Contact.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+                <state relative-caret-position="357">
+                  <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#133#160#0#PHP" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/module.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/frontend/routes.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/view/frontend/templates/widget/link/link_block.phtml">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/view/frontend/templates/widget/link/link_inline.phtml">
+            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Contact/Collection.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                  <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/view/frontend/templates/widget/static_block/default.phtml">
+            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Controller/Test/Index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="510">
+                  <caret line="35" column="88" lean-forward="true" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/templates/widget/static_block/default.phtml">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pub/errors/local.xml">
+            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/layout/userGeneration_test_index.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DataObject/Copy/Config/Converter.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+                <state relative-caret-position="85">
+                  <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
                 </state>
               </provider>
             </entry>
@@ -154,31 +229,24 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/Html/Link/Current.php">
+            <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Customer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1632">
-                  <caret line="99" column="40" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+                <state relative-caret-position="2737">
+                  <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Observer/MyObserver.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#136#182#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/ResourceModel/Customer.php">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/view/frontend/layout/default.xml">
+            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Contact.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="17" column="28" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="17" selection-end-column="28" />
+                <state relative-caret-position="51">
+                  <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
@@ -196,21 +264,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>minicart-w</find>
-      <find>gallery-placeholder</find>
-      <find>lib-url-check</find>
-      <find>Breadcrumbs</find>
-      <find>button-font-content</find>
-      <find>@modal-popup__padding</find>
-      <find>toolbar</find>
-      <find>product.info</find>
-      <find>top.links</find>
-      <find>store_language</find>
-      <find>content.bottom</find>
-      <find>Advanced Search</find>
-      <find>footer links</find>
-      <find>catalogsearch/advanced</find>
-      <find>contact-us-info</find>
       <find>module</find>
       <find>ResultFactory</find>
       <find>ResultFactory::TYPE_LAYOUT</find>
@@ -220,13 +273,32 @@
       <find>Registry</find>
       <find>obser</find>
       <find>prepareResultPage</find>
-      <find>Contact Us</find>
-      <find>footer_links</find>
       <find>my-page</find>
       <find>getName</find>
       <find>ChackPageLink</find>
       <find>class=&quot;links</find>
+      <find>admin:user:create</find>
+      <find>AdminAccount</find>
+      <find>setValidator</find>
+      <find>check</find>
+      <find>privacy-policy-link</find>
+      <find>footer_links</find>
+      <find>Viktoria_CheckPageLink</find>
+      <find>check_page_link</find>
+      <find>skip_confirmation_if_email</find>
+      <find>interact</find>
+      <find>Contact Us</find>
+      <find>contact-us-link</find>
+      <find>dispatch</find>
+      <find>-&gt;</find>
+      <find>verbose</find>
+      <find>ResourceModel</find>
+      <find>InstallSchema</find>
     </findStrings>
+    <replaceStrings>
+      <replace>self</replace>
+      <replace>.</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/magento/module-catalog</dir>
       <dir>$PROJECT_DIR$/vendor/magento/module-catalog/view</dir>
@@ -239,6 +311,7 @@
       <dir>$PROJECT_DIR$/vendor/magento</dir>
       <dir>$PROJECT_DIR$/vendor/magento/framework/DataObject</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/vendor/symfony/console</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -247,44 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/composer.json" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/registration.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/theme.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/web/images/logo.svg" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/etc/view.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/templates/product/breadcrumbs.phtml" />
-        <option value="$PROJECT_DIR$/app/etc/env.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/web/css/source/_theme.less" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/web/css/source/_theme.less__" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Checkout/templates/cart/minicart.html" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Checkout/templates/cart/minicart.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/layout/default_head_blocks.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/layout/catalog_category_view.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/layout/my_view.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Customer/layout/default.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Review/templates/form.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Checkout/web/template/minicart/contemt.html" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Sales/email/order_new.html" />
-        <option value="$PROJECT_DIR$/dev/tools/grunt/configs/themes.js" />
-        <option value="$USER_HOME$/projects/GH1/switch_if/.gitignore" />
-        <option value="$USER_HOME$/projects/GH1/switch_if/index.html" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/layout/catalog_product_view.xml" />
-        <option value="$PROJECT_DIR$/lib/web/css/source/lib/_buttons.less" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/templates/product/view/button.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/web/css/source/_module.less" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/templates/html/breadcrumbs.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog-Search/layout/default.xml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/registration.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/etc/module.xml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/etc/frontend/routes.xml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/view/frontend/templates/hello-block.phtml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/view/frontend/layout/addCustomer_index_index.xml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Controller/Index/Index.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_CatalogSearch/layout/default.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/templates/widget/link/link_list.phtml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Block/HelloWorld.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/ChackPageLinck/registration.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/ChackPageLinck/view/layout/default.xml" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/ChackPageLinck/etc/module.xml" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/ChackPageLink/registration.php" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/ChackPageLink/etc/frontend/routes.xml" />
@@ -294,19 +329,58 @@
         <option value="$PROJECT_DIR$/app/code/Viktoria/ChackPageLink/etc/events.xml" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/registration.php" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Observer/MyObserver.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/module.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/layout/default.xml___" />
         <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/layout/default.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Console/Sayhello.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/etc/di.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/layout/default.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/module.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/layout/default.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Observer/CmsPagerender.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/events.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Console/UserCreateCommand.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/frontend/routes.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Block/CheckIdPage.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/frontend/layout/default.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/frontend/routes.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/module.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/registration.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Block/CheckPageId.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/frontend/templates/widget/link/link_list.phtml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Observer/CmsPageRender.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/di.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/AddDefaultAddress.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/GenerationCommand.php" />
+        <option value="$USER_HOME$/projects/GH1/GetHub_Vika/HW3_V/Module_Chat.js" />
+        <option value="$USER_HOME$/projects/GH1/GetHub_Vika/HW3_V/module_User.js" />
+        <option value="$USER_HOME$/projects/GH1/GetHub_Vika/HW3_V/module_History.js" />
+        <option value="$USER_HOME$/projects/GH1/GetHub_Vika/HW3_V/scripts.js" />
+        <option value="$USER_HOME$/projects/GH1/GetHub_Vika/HW3_V/index.html" />
+        <option value="$USER_HOME$/projects/GH1/GetHub_Vika/lesson3.txt" />
+        <option value="$USER_HOME$/projects/GH1/GetHub_Vika/HW3_V/scripts/module_History.js" />
+        <option value="$PROJECT_DIR$/../ygl-ygl-co-il-m2/app/etc/env.php" />
+        <option value="$PROJECT_DIR$/../ygl-ygl-co-il-m2/dev/tools/grunt/configs/themes.js" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/ResourceModel/Contact.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Contact/Collection.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Setup/InstallSchema.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactslist.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactlist/Contactslist.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/templates/contactlist.phtml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/layout/userGeneration_test_index.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/Contact.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Contact.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Controller/Test/Index.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers>
       <server host="magento-git.com" id="cb8e1fc7-fa3f-4c3a-8844-8dc0323e0239" name="magento-git.com" port="443" />
+      <server host="localhost" id="e8d2cc33-168f-4b27-aff0-45ebc7ecc136" name="localhost" port="8888" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/magento/module-grouped-product-sample-data" />
       <path value="$PROJECT_DIR$/vendor/magento/module-tax-sample-data" />
@@ -585,10 +659,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2014" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="1853" />
-    <option name="height" value="1076" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -628,7 +702,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="AddCustomer" type="462c0819:PsiDirectoryNode" />
+              <item name="UserGeneration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
@@ -636,397 +710,65 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckPageLink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckPageLink" type="462c0819:PsiDirectoryNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckPageLink" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckPageLink" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckPageLink" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckPageLink" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckPageLink" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="viktoria_theme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="viktoria_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Magento_Catalog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="viktoria_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Magento_Cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="viktoria_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Magento_Cms" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="viktoria_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Magento_Cms" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="viktoria_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Magento_Cms" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="viktoria_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Magento_Cms" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="viktoria_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="Magento_Cms" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="static_block" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="viktoria_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="errors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-analytics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-analytics" type="462c0819:PsiDirectoryNode" />
-              <item name="Block" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-analytics" type="462c0819:PsiDirectoryNode" />
-              <item name="Block" type="462c0819:PsiDirectoryNode" />
-              <item name="Adminhtml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-analytics" type="462c0819:PsiDirectoryNode" />
-              <item name="Block" type="462c0819:PsiDirectoryNode" />
-              <item name="Adminhtml" type="462c0819:PsiDirectoryNode" />
-              <item name="System" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-analytics" type="462c0819:PsiDirectoryNode" />
-              <item name="Block" type="462c0819:PsiDirectoryNode" />
-              <item name="Adminhtml" type="462c0819:PsiDirectoryNode" />
-              <item name="System" type="462c0819:PsiDirectoryNode" />
-              <item name="Config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="static_block" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-sales" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-sales" type="462c0819:PsiDirectoryNode" />
-              <item name="Block" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-sales" type="462c0819:PsiDirectoryNode" />
+              <item name="UserGeneration" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-sales" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
+              <item name="UserGeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-sales" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
+              <item name="UserGeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
+              <item name="UserGeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="ResourceModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
+              <item name="UserGeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
+              <item name="UserGeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-sales" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
+              <item name="UserGeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -1034,58 +776,36 @@
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="magento_git" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-sales" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="magento_git" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-sales" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-              <item name="guest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="magento_git" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-search" type="462c0819:PsiDirectoryNode" />
+              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="magento_git" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-search" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="magento_git" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-search" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-search" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="module-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="ResourceModel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1100,22 +820,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/ChackPageLink" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/ChackPageLink/Observer" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/etc" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactlist" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/frontend" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Console" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Console/Seyhello" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserGeneration" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Console" />
       <recent name="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/templates/widget" />
       <recent name="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/templates" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/CheckPageLink" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/ChackPageLink" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/ChackPageLink/etc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1149,12 +869,16 @@
       <workItem from="1540195156484" duration="186000" />
       <workItem from="1540272418248" duration="12289000" />
       <workItem from="1540364895775" duration="23573000" />
-      <workItem from="1540446115822" duration="5880000" />
+      <workItem from="1540446115822" duration="28013000" />
+      <workItem from="1540533260338" duration="25575000" />
+      <workItem from="1541140175029" duration="998000" />
+      <workItem from="1541141411361" duration="17529000" />
+      <workItem from="1541401649380" duration="9801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135472000" />
+    <option name="totallyTimeSpent" value="211508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1166,23 +890,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="-11" width="1922" height="1212" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22732124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19900498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.2170754" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.45768026" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39055404" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42946708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961932" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.13557595" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15440509" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31452456" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1190,20 +913,20 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29353234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24866596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5338904" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.21525885" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39143732" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29064485" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961932" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36187562" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.13557595" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.09990917" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1219,8 +942,39 @@
       <path value="$PROJECT_DIR$/magento_team_scripts" />
     </ignored-roots>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/magento/module-customer/Controller/Address/Delete.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/magento/module-customer/Controller/Address/Delete.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>$this-&gt;registry-&gt;registry(CmsPageRender::CURRENT_CMS_PAGE_ID)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$this-&gt;_layout-&gt;getChildBlocks($this-&gt;getNameInLayout())</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$this-&gt;getLinks()</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>$block-&gt;getData()</expression-string>
         <language-id>PHP</language-id>
@@ -1229,332 +983,351 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/view/frontend/layout/print.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/templates/html/breadcrumbs.phtml">
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-http/src/PhpEnvironment/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="191">
+          <caret line="348" column="7" lean-forward="true" selection-start-line="348" selection-start-column="7" selection-end-line="348" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/ChackPageLinck/Block/HelloWorld.php" />
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/AddCustomer/view/frontend/templates/hello-block.phtml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Controller/Adminhtml/Customer/InvalidateToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="61" selection-start-column="61" selection-end-column="61" />
-        </state>
+        <state relative-caret-position="-1683" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/AddCustomer/view/frontend/layout/addcustomer_index_index.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="11" column="164" selection-start-line="11" selection-start-column="164" selection-end-line="11" selection-end-column="164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/Helper/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-contact/view/frontend/layout/contact_index_index.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/view/frontend/layout/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/AddCustomer/Block/HelloWorld.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/AddCustomer/etc/frontend/routes.xml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Controller/Account/Create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-contact/view/frontend/layout/default.xml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Controller/Result/RedirectFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="211">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog-search/view/frontend/layout/default.xml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="110" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="110" />
+        <state relative-caret-position="211">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/Block/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2652" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-search/view/frontend/layout/default.xml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Registration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-sales/view/frontend/layout/default.xml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Data/Form/FormKey/Validator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="194">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Event/ObserverInterface.php">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Config/Scope.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="211">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/Html/Link.php">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Action/AbstractAction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1241">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="335">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-sales/Controller/Guest/View.php">
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-http/src/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
+        <state relative-caret-position="292">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-sales/Controller/Order/View.php">
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-stdlib/src/Parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Metadata/FormFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Data/AttributeMetadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Metadata/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/CustomerExtractor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Customer/Controller/Account/CreatePost/Interceptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Customer/Model/Session/Interceptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Api/AbstractSimpleObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Customer/Model/AccountManagement/Interceptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Interception/PluginList/PluginList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="270" selection-start-line="270" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/HTTP/PhpEnvironment/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Framework/Event/Manager/Proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Data/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-checkout/Model/Session.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Magento_Catalog-Search/layout/default.xml" />
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/Controller/Page/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-sales/etc/frontend/events.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-sales/Block/Guest/Link.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/Html/Link/Current.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="99" column="40" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Event/Observer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="27" />
-          <folding>
-            <element signature="e#1308#1384#0#PHP" />
-            <element signature="e#1478#1566#0#PHP" />
-            <element signature="e#1610#1697#0#PHP" />
-            <element signature="e#1791#1890#0#PHP" />
-            <element signature="e#2112#2208#0#PHP" />
-            <element signature="e#2291#2369#0#PHP" />
-            <element signature="e#2462#2552#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Magento_Cms/layout/default.xml__">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Observer/AfterAddressSaveObserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DataObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="139" column="29" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Http/Context.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DataObject/Copy/Config/Converter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/events.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/errors/local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/module.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Magento_Cms/layout/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Magento_Cms/templates/widget/link/link_list.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Customer.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/layout/default.xml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Helper/Address.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="504">
+          <caret line="350" column="7" lean-forward="true" selection-start-line="350" selection-start-column="7" selection-end-line="350" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/layout/default.xml___">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/ResourceModel/Customer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/env.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Theme/templates/widget/link/link_list.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/GenerationCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/View/Element/AbstractBlock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="888" column="20" selection-start-line="888" selection-start-column="20" selection-end-line="888" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/view/templates/widget/link/link_list.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/Observer/MyObserver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="e#136#182#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/Block/Widget/Page/Link.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/CheckPageLink/etc/frontend/routes.xml">
+    <entry file="file://$PROJECT_DIR$/dev/tests/integration/testsuite/Magento/Vault/Model/ResourceModel/PaymentTokenTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/view/frontend/templates/widget/link/link_block.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/view/frontend/templates/widget/link/link_inline.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/templates/widget/static_block/default.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/templates/widget/link/link_list.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/view/frontend/templates/widget/static_block/default.phtml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Setup/InstallSchemaInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-cms/view/frontend/layout/default.xml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Setup/SchemaSetupInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="136">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Cms/layout/default.xml">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Setup/SetupInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Controller/Account/CreatePost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="285" column="23" selection-start-line="285" selection-start-column="15" selection-end-line="285" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Action/Action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/AddDefaultAddress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/registration.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/frontend/routes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/templates/test_contacts.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactlist/Contactslist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/layout/userGeneration_test_index.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Setup/InstallSchema.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#134#185#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Model/ResourceModel/Db/AbstractDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Controller/Test/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="88" lean-forward="true" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Contact/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ResourceModel/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#133#160#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

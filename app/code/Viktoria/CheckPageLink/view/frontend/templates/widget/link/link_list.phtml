@@ -1,0 +1,16 @@
+<?php
+/**
+ * @var \Viktoria\CheckPageLink\Block\CheckPageId $block
+ */
+?>
+<li class="nav item">
+    <?php if ($block->isCurrentPage()) : ?>
+        <strong <?= /* @noEscape */ $block->getLinkAttributes() ?>>
+            <span><?= $block->escapeHtml($block->getLabel()) ?></span>
+        </strong>
+    <?php else : ?>
+        <a <?= /* @noEscape */ $block->getLinkAttributes() ?>>
+            <span><?= $block->escapeHtml($block->getLabel()) ?></span>
+        </a>
+    <?php endif; ?>
+</li>

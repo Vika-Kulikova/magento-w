@@ -7,30 +7,9 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <referenceBlock name="cms_footer_links_container">
-            <block class="Magento\Cms\Block\Widget\Page\Link" name="privacy-policy-link1" template="Magento_Cms::widget/link/link_list.phtml">
-                <arguments>
-                    <argument name="page_id" xsi:type="number">4</argument>
-                </arguments>
-            </block>
-            <block class="Magento\Cms\Block\Widget\Page\Link" name="contact-us-link1" template="Magento_Cms::widget/link/link_list.phtml">
-                <arguments>
-                    <argument name="page_id" xsi:type="number">7</argument>
-                </arguments>
-            </block>
-
-            <block class="Magento\Cms\Block\Widget\Page\Link" name="catalog-search-my-page-link" template="Magento_Cms::widget/link/link_list.phtml">
-                <arguments>
-                    <argument name="page_id" xsi:type="number">8</argument>
-                </arguments>
-            </block>
-
-        </referenceBlock>
-
+        <!--<referenceBlock name="privacy-policy-link" remove="true"/>-->
+        <!--<referenceBlock name="contact-us-link" remove="true"/>-->
         <referenceBlock name="footer_links">
-            <referenceBlock name="privacy-policy-link" remove="true"/>
-            <referenceBlock name="contact-us-link" remove="true"/>
-
             <!--<block class="Magento\Cms\Block\Widget\Page\Link" name="privacy-policy-link1" template="Magento_Cms::widget/link/link_list.phtml">-->
                 <!--<arguments>-->
                     <!--<argument name="page_id" xsi:type="number">4</argument>-->

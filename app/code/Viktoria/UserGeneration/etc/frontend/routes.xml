@@ -7,8 +7,8 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="chackPageLink" frontName="checkPageLink">
-            <module name="Viktoria_CheckPageLink" />
+        <route id="userGeneration" frontName="userGeneration">
+            <module name="Viktoria_UserGeneration"></module>
         </route>
     </router>
 </config>
