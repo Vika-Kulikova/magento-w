@@ -1,0 +1,56 @@
+& when (@media-common = true) {
+    .actions.new-buttons {
+       display: flex;
+        justify-content: center;
+    }
+    .example-button {
+        .lib-button (
+            @_button-width: 250px;
+            @_button-padding: 15px;
+            @_button-background: #efeff0;
+            @_button-border: 1px solid transparent;
+        );
+        transition: all 0.3s;
+        &:hover {
+            .lib-button (
+                @_button-padding: 15px;
+                @_button-background-hover: #efeff0;
+                @_button-border-hover: 1px solid #6e706e;
+            )
+        }
+    }
+    
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+    
+    .col-id {
+        width: 2%
+    }
+    
+    .col-name {
+        width: 25%
+    }
+    .col-email {
+        width: 25%
+    }
+    
+    //.toolbar {
+    //    margin-top: 30px;
+    //}
+}
+

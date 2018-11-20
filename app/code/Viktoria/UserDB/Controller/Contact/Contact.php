@@ -42,6 +42,9 @@ class Contact extends \Magento\Framework\App\Action\Action
             /** @var ContactModel $contact */
             $contact = $this->contactFactory->create();
             $contact->setName('Paul Ricard ' . uniqid('uid_', true));
+
+            $contact->setEmail('Paul_Ricard@gmail.ru ');
+            $contact->setComment('Comment from Paul');
             $this->transaction->addObject($contact);
         }
 
@@ -53,7 +56,6 @@ class Contact extends \Magento\Framework\App\Action\Action
         } catch (\Exception $e) {
             return $result->setContents($e->getMessage());
         }
-
         return $result->setContents('Successfully saved models!');
     }
 }

@@ -8,6 +8,8 @@ use Magento\Framework\Model\AbstractModel;
  * Class Contact
  * @method string getName()
  * @method Contact setName(string $name)
+ * @method Contact setEmail(string $email)
+ * @method Contact setComment(string $comment)
  */
 class Contact extends AbstractModel
 {
