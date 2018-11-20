@@ -2,27 +2,33 @@
 
 namespace Viktoria\UserGeneration\Setup;
 
-use Magento\Framework\Setup\InstallSchemaInterface;
+use Magento\Framework\Setup\UpgradeSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;
+//use Magento\Catalog\Model\ResourceModel\Product\Gallery;
+//use Magento\Catalog\Model\Product\Attribute\Backend\Media\ImageEntryConverter;
 
-  class InstallSchema implements InstallSchemaInterface
+class UpgradeSchema implements UpgradeSchemaInterface
 {
     /**
-     * @param SchemaSetupInterface $setup
-     * @param ModuleContextInterface $context
-     * @throws \Zend_Db_Exception
+     * {@inheritdoc}
      */
-
-    public function install(SchemaSetupInterface $setup, ModuleContextInterface $context)
+    public function upgrade(SchemaSetupInterface $setup, ModuleContextInterface $context)
     {
         $setup->startSetup();
 
-        /**
-         * create table 'new_contact'
-         */
+        if (version_compare($context->getVersion(), '1.0.1', '<')) {
 
-        if (!$setup->getConnection()->isTableExists($setup->getTable('generated_contact'))) {
+//            $tableName = $setup->getTable('new_contact');
+//            $setup->getConnection()->addColumn($tableName, 'comment', [
+//                'type' => \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+//                'length'    => 255,
+//                'unsigned' => true,
+//                'nullable' => false,
+//                'default' => '0',
+//                'comment' => 'Comment'
+//            ]);
+
             $table = $setup->getConnection()
                 ->newTable($setup->getTable('generated_customers'))
                 ->addColumn(
@@ -76,4 +82,3 @@ use Magento\Framework\Setup\SchemaSetupInterface;
         $setup->endSetup();
     }
 }
-

@@ -8,4 +8,17 @@
             </argument>
         </arguments>
     </type>
+
+    <type name="Magento\Checkout\Model\CompositeConfigProvider">
+        <arguments>
+            <argument name="configProviders" xsi:type="array">
+                <item name="cms_block_config_provider" xsi:type="object">Viktoria\UserGeneration\Model\ConfigProvider</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="Viktoria\UserGeneration\Model\ConfigProvider">
+        <arguments>
+            <argument name="blockId" xsi:type="string">checkout_cms_block</argument>
+        </arguments>
+    </type>
 </config>

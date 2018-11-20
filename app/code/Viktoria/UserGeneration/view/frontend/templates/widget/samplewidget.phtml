@@ -1,0 +1,12 @@
+<?php if($block->getData('widgettitle')): ?>
+    <h2 class="victoria-title"><?php echo $block->getData('widgettitle')?></h2>
+<?php endif; ?>
+
+<?php if($block->getData('widgetcontent')): ?>
+    <h2 class='victoria-content'><?php echo $block->getData('widgetcontent'); ?></h2>
+<?php endif; ?>
+
+<?php if($block->getData('posts')): ?>
+       <h2 class='posts'><?php echo $block->getData('posts'); ?></h2>
+       <p>This is sample widget. Perform your code here.</p>
+<?php endif; ?>

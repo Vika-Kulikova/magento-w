@@ -1,0 +1,49 @@
+<?php
+
+namespace Viktoria\UserGeneration\Setup;
+
+use Magento\Framework\Setup\UpgradeDataInterface;
+use Magento\Framework\Setup\ModuleContextInterface;
+use Magento\Framework\Setup\ModuleDataSetupInterface;
+use Magento\Cms\Model\Page;
+
+class UpgradeData implements UpgradeDataInterface
+{
+    /**
+     * @var \Magento\Cms\Model\PageFactory $pageFactory
+     */
+    private $pageFactory;
+
+    /**
+     * UpgradeData constructor.
+     * @param \Magento\Cms\Model\PageFactory $pageFactory
+     */
+    public function __construct(
+        \Magento\Cms\Model\PageFactory $pageFactory
+    ) {
+        $this->pageFactory = $pageFactory;
+    }
+
+    /**
+     * @param ModuleDataSetupInterface $setup
+     * @param ModuleContextInterface $context
+     */
+    public function upgrade(ModuleDataSetupInterface $setup, ModuleContextInterface $context): void
+    {
+        $setup->startSetup();
+
+        if (version_compare($context->getVersion(), '2.0.14') < 0) {
+            /** @var Page $page */
+            $page = $this->pageFactory->create();
+            $page->setTitle('Example CMS page')
+                ->setIdentifier('example-cms-page')
+                ->setIsActive(true)
+                ->setPageLayout('1column')
+                ->setStores([0])
+                ->setContent('Lorem ipsum dolor sit amet, consectetur adipiscing elit.')
+                ->save();
+        }
+
+        $setup->endSetup();
+    }
+}

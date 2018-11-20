@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget class="Viktoria\UserGeneration\Block\Widget\Samplewidget" id="viktoria_usergeneration_samplewidget">
+        <label>Viktoria Sample Widget</label>
+        <description />
+        <parameters>
+            <parameter name="widgettitle" sort_order="10" visible="true" xsi:type="text">
+                <label>Title</label>
+            </parameter>
+            <parameter name="widgetcontent" sort_order="20" visible="true" xsi:type="textarea">
+                <label>Content</label>
+            </parameter>
+            <parameter name="posts" sort_order="10" visible="true" xsi:type="text">
+                <label>Custom Posts Label</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

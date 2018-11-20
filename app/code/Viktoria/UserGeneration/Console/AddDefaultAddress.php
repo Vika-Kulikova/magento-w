@@ -8,6 +8,7 @@
 
 namespace Viktoria\UserGeneration\Console;
 
+use Symfony\Component\Console\Command\Command;
 
 class AddDefaultAddress extends Command
 {

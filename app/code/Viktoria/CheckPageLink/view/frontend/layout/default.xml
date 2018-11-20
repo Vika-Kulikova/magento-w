@@ -26,6 +26,11 @@
                     <argument name="page_id" xsi:type="number">8</argument>
                 </arguments>
             </block>
+            <block class="Viktoria\CheckPageLink\Block\CheckPageId" name="generated-customers-admin" template="Viktoria_CheckPageLink::widget/link/link_list.phtml">
+                <arguments>
+                    <argument name="page_id" xsi:type="number">9</argument>
+                </arguments>
+            </block>
 
 
             <!--<block class="Magento\Cms\Block\Widget\Page\Link" name="privacy-policy-link1" template="Viktoria_CheckPageLink::widget/link/link_list.phtml">-->
