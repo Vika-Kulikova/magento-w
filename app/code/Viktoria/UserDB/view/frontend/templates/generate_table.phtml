@@ -1,0 +1,64 @@
+<?php /** @var \Viktoria\UserDB\Block\Generate $block */ ?>
+<div class="form-container">
+    <form class="form customer-quantity"
+          action="<?= $block->escapeUrl($block->getPostActionUrl()) ?>"
+          method="post"
+          data-mage-init='{"validation":{}}'
+    >
+
+        <div class="input-container">
+            <label class="label" for="quantity"><span><?= $block->escapeHtml(__('How many users do you want to generate?')) ?></span></label>
+            <input id="quantity" type="text" name="quantity">
+        </div>
+
+        <div class="primary">
+            <button type="submit"
+                    title="<?= $block->escapeHtml(__('Generate')) ?>"
+                    class="example-button generate-button">
+                <span><?= /* @escapeNotVerified */
+                    __('Generate') ?></span>
+            </button>
+        </div>
+    </form>
+</div>
+
+<div class="container-generation-table">
+    <table>
+        <thead>
+            <tr>
+                <th class="col-id">Id</th>
+                <th class="col-name">Name</th>
+                <th class="col-surname">Surname</th>
+                <th class="col-email">Email</th>
+                <th class="col-default-shipping">Default Shipping</th>
+                <th class="col-default-billing">Default Billing</th>
+                <th class="col-comment">Comment</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+            /** @var \Viktoria\UserDB\Model\Contact $contact */
+            foreach ($block->getContactCollection() as $contact) :
+                ?>
+                <tr>
+                    <td></td>
+                    <td><?= $contact->getName() ?></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        ".generate-button": {
+            "generateTable": {}
+        }
+    }
+</script>
+

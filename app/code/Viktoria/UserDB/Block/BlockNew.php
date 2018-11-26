@@ -2,8 +2,6 @@
 
 namespace Viktoria\UserDB\Block;
 
-use Magento\Framework\View\Element\Template;
-
 class BlockNew extends \Magento\Framework\View\Element\Template
 {
     /**

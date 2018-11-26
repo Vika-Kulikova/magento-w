@@ -7,7 +7,7 @@
 -->
 <config xmlns:xi="http://www.w3.org/2001/XInclude">
     <profile>
-        <di>di.xml</di>
+        <di>di.xml___</di>
         <websites>1</websites>
         <store_groups>1</store_groups>
         <store_views>1</store_views>

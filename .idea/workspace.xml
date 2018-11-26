@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa10b60d-409a-4a39-9716-f63b346a84d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/requirejs-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/css/source/_module.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/toggle-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Api/Data/CustomerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/Generate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Generate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/templates/generate_table.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/generate-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/AddCustomers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/BlockNew.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/BlockNew.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Contact/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Contact/Contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Setup/UpgradeSchema.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/Setup/UpgradeSchema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/frontend/routes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/frontend/routes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/module.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/module.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/layout/user_db_test_index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/layout/user_db_test_index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/requirejs-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/requirejs-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/templates/test_index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/templates/test_index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/css/source/_module.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/css/source/_module.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactlist/Contactslist.php__" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactlist/Contactslist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/GenerationCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/GenerationCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/etc/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/etc/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/tests/integration/testsuite/Magento/Setup/Fixtures/_files/small.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dev/tests/integration/testsuite/Magento/Setup/Fixtures/_files/small.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,51 +37,15 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="DockManager">
-    <window id="1">
+    <window id="2">
       <content type="file-editors">
         <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/view/frontend/templates/newcustomer.phtml">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="374">
-                    <caret line="25" selection-start-line="25" selection-end-line="25" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Setup/InstallSchema.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="2584">
-                    <caret line="157" column="55" selection-start-line="157" selection-start-column="55" selection-end-line="157" selection-end-column="55" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
+          <leaf>
             <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DB/Ddl/Table.php">
+              <entry file="file://$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/Helper/Customer.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="340">
-                    <caret line="23" column="22" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="22" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Customer.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="4845">
-                    <caret line="301" column="64" selection-start-line="301" selection-start-column="64" selection-end-line="301" selection-end-column="64" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/ResourceModel/Customer.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="5474">
-                    <caret line="328" column="29" selection-start-line="328" selection-start-column="29" selection-end-line="328" selection-end-column="29" />
+                  <state relative-caret-position="425">
+                    <caret line="100" column="62" lean-forward="true" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
                   </state>
                 </provider>
               </entry>
@@ -77,100 +56,56 @@
     </window>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4465409">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/BlockNew.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1173">
-                  <caret line="65" column="61" lean-forward="true" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Contact/Contact.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="293">
-                  <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#54#104#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/css/source/_module.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/toggle-table.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/requirejs-config.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="19" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/Contact.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/templates/test_index.phtml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/web/js/list.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
-                  <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/EmailNotification.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="365" column="33" lean-forward="true" selection-start-line="365" selection-start-column="33" selection-end-line="365" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/dotmailer/dotmailer-magento2-extension/Plugin/CustomerEmailNotificationPlugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="44" column="36" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/Console/CreateCustomer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+              <folding>
+                <element signature="e#53#99#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/AccountManagement.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="903" column="83" selection-start-line="903" selection-start-column="83" selection-end-line="903" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generated/code/Magento/Customer/Model/AccountManagement/Interceptor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,28 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>privacy-policy-link</find>
-      <find>footer_links</find>
-      <find>Viktoria_CheckPageLink</find>
-      <find>check_page_link</find>
-      <find>skip_confirmation_if_email</find>
-      <find>interact</find>
-      <find>Contact Us</find>
-      <find>contact-us-link</find>
-      <find>dispatch</find>
-      <find>-&gt;</find>
-      <find>verbose</find>
-      <find>ResourceModel</find>
-      <find>InstallSchema</find>
-      <find>checkout_sidebar</find>
-      <find>Viktoria\UserDB\Block</find>
-      <find>Viktoria\UserDB</find>
-      <find>\Context</find>
-      <find>Template\Context</find>
-      <find>_construct(</find>
-      <find>_co</find>
-      <find>UserGeneration</find>
-      <find>ResultFactory::TYPE_RAW</find>
       <find>addr</find>
       <find>_prepareLayout()</find>
       <find>RewardHistory</find>
@@ -212,6 +125,28 @@
       <find>setAvailableLimit</find>
       <find>getParam('li</find>
       <find>/js/list</find>
+      <find>catalogAddToCart</find>
+      <find>contactFactory</find>
+      <find>getPostActionUrl</find>
+      <find>ResultFactory::TYPE_REDIRECT</find>
+      <find>user_DB</find>
+      <find>Mage::getModel</find>
+      <find>getRedirect</find>
+      <find>admin:user:create</find>
+      <find>CustomerDataGenerator</find>
+      <find>KEY_FIRSTNAME</find>
+      <find>use \</find>
+      <find>-&gt;data</find>
+      <find>state</find>
+      <find>CustomerCreateCommand</find>
+      <find>Magento\Framework\Console\</find>
+      <find>Transaction</find>
+      <find>compactData</find>
+      <find>$isGroupIdEmpty</find>
+      <find>storeManager</find>
+      <find>accountManagement</find>
+      <find>-&gt;sendNewAccountEmail(</find>
+      <find>aroundnewAccount</find>
     </findStrings>
     <replaceStrings>
       <replace>self</replace>
@@ -220,7 +155,6 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/magento/module-catalog</dir>
-      <dir>$PROJECT_DIR$/vendor/magento/module-catalog/view</dir>
       <dir>$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend</dir>
       <dir>$PROJECT_DIR$/vendor/magento/theme-frontend-luma</dir>
       <dir>$PROJECT_DIR$/lib</dir>
@@ -230,8 +164,12 @@
       <dir>$PROJECT_DIR$/vendor/magento</dir>
       <dir>$PROJECT_DIR$/vendor/magento/framework/DataObject</dir>
       <dir>$PROJECT_DIR$/vendor/symfony/console</dir>
-      <dir>$PROJECT_DIR$/app/code</dir>
+      <dir>$PROJECT_DIR$/vendor/magento/module-catalog/view</dir>
       <dir>$PROJECT_DIR$/app/code/Viktoria/UserDB</dir>
+      <dir>$PROJECT_DIR$/vendor/magento/module-customer/Model</dir>
+      <dir>$PROJECT_DIR$/vendor/magento/magento2-base/setup/src/Magento</dir>
+      <dir>$PROJECT_DIR$/app/code</dir>
+      <dir>$PROJECT_DIR$/app/code/Viktoria</dir>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
@@ -241,34 +179,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/var/log/exception.log" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/widget.xml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Widget/Samplewidget.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Setup/InstallData.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Setup/UpgradeData.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/etc/di.xml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Model/ConfigProvider.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Checkout/web/template/sidebar.html" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactlist/Contactslist.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/view/frontend/templates/test_contacts.phtml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Controller/Test/Index.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/view/frontend/layout/userGeneration_test_index.xml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/view/frontend/templates/test_index.phtml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UseDB/etc/module.xml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UseDB/etc/frontend/routes.xml" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UseDB/registration.php" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UseDB/Controller/Test/Index.php" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/layout/userGeneration_test_index.xml" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/Block.php" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/layout/userDB_test_index.xml" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactslist.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/module.xml" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Contact.php" />
         <option value="$PROJECT_DIR$/app/etc/env.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Setup/UpgradeSchema.php" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Setup/InstallSchema.php" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/ResourceModel/Contact.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/frontend/routes.xml" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/ResourceModel/Contact/Collection.php" />
         <option value="$PROJECT_DIR$/../ygl-ygl-co-il-m2/app/design/frontend/Dv/porto_rtl/Magento_Catalog/web/css/source/_module.less" />
         <option value="$PROJECT_DIR$/../ygl-ygl-co-il-m2/app/design/frontend/Dv/porto_rtl/Magento_Theme/web/css/source/_module.less" />
@@ -279,19 +198,38 @@
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Setup/UpgradeSchema.php" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/layout/user_d_b_test_index.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/Contact.php" />
         <option value="$PROJECT_DIR$/ss.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/layout/user_db_test_index.xml" />
         <option value="$PROJECT_DIR$/Reward.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/BlockNew.php" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/css/source/_module.less" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/togleTable.js" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Index.php" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/togle-table.js" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/toggle-table.js" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/requirejs-config.js" />
-        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/templates/test_index.phtml" />
         <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Contact/Contact.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/module.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Setup/UpgradeSchema.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/generate-table.js" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/requirejs-config.js" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/Pagination.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/templates/test_index.phtml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/css/source/_module.less" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/ajax.js" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/BlockNew.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/GenerateBlock.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/layout/user_db_test_index.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/templates/generate_table.phtml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Index.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Generate.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/frontend/routes.xml" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/Generate.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/GenerationCommand.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/AddCustomers.php" />
+        <option value="$PROJECT_DIR$/xxx.less" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Api/Data/CustomerInterface.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/Contact.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/Console/Command/CustomerCreateCommand.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/etc/di.xml" />
+        <option value="$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/Console/CreateCustomer.php" />
+        <option value="$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/Helper/Customer.php" />
       </list>
     </option>
   </component>
@@ -581,9 +519,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -622,35 +560,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="UserDB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="UserDB" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="UserDB" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="Contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="Viktoria" type="462c0819:PsiDirectoryNode" />
-              <item name="UserDB" type="462c0819:PsiDirectoryNode" />
-              <item name="Setup" type="462c0819:PsiDirectoryNode" />
+              <item name="GenerateCustomer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
@@ -674,51 +584,6 @@
               <item name="magento_git" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-catalog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
               <item name="module-customer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -727,7 +592,7 @@
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="magento" type="462c0819:PsiDirectoryNode" />
               <item name="module-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
@@ -735,49 +600,8 @@
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="magento" type="462c0819:PsiDirectoryNode" />
               <item name="module-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magento_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magento_git" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="magento" type="462c0819:PsiDirectoryNode" />
-              <item name="module-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Account" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -789,26 +613,26 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/projects/111/JQPlugin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php_first_project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Contact" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserDB/Model" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/templates/widget" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/templates" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block/Contactlist" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test" />
       <recent name="$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend" />
       <recent name="$PROJECT_DIR$/app/code/Viktoria/UserDB" />
       <recent name="$PROJECT_DIR$/app/code/Viktoria/UserDB/Model" />
       <recent name="$PROJECT_DIR$/app/code/Viktoria/UseDB" />
-      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Block" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/Console" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserDB/Api/Data" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Contact" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserDB/Model" />
+      <recent name="$PROJECT_DIR$/app/code/Viktoria/UserGeneration/View/frontend/templates/widget" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -853,12 +677,18 @@
       <workItem from="1541658502640" duration="20796000" />
       <workItem from="1541745635998" duration="16055000" />
       <workItem from="1542609866519" duration="11068000" />
-      <workItem from="1542695063911" duration="22312000" />
+      <workItem from="1542695063911" duration="26708000" />
+      <workItem from="1542724839600" duration="2436000" />
+      <workItem from="1542783906062" duration="13610000" />
+      <workItem from="1542880950301" duration="8147000" />
+      <workItem from="1542901719229" duration="1316000" />
+      <workItem from="1542966266693" duration="6601000" />
+      <workItem from="1543215226065" duration="11550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299101000" />
+    <option name="totallyTimeSpent" value="347157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,7 +702,7 @@
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22166944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -885,7 +715,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.13557595" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4997236" visible="true" weight="0.22570533" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997236" weight="0.40856844" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002764" side_tool="true" weight="0.3908046" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.24451411" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -894,21 +724,22 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22111663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21337755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.45768026" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33124346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3030303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.18077324" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.13557595" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4997236" visible="true" weight="0.2737722" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997236" weight="0.22570533" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002764" side_tool="true" weight="0.3908046" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.24451411" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -935,6 +766,11 @@
           <url>file://$PROJECT_DIR$/vendor/magento/module-customer/Controller/Address/Delete.php</url>
           <line>15</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php</url>
+          <line>46</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -964,326 +800,372 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Setup/InstallSchema.php">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Api/ExtensibleDataInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/GenerationCommand.php">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DataObject/IdentityInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/frontend/routes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/etc/module.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generated/code/Viktoria/UserDB/Model/ContactFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/view/frontend/templates/newcustomer.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Setup/InstallSchema.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="157" column="55" selection-start-line="157" selection-start-column="55" selection-end-line="157" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Customer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4845">
-          <caret line="301" column="64" selection-start-line="301" selection-start-column="64" selection-end-line="301" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/ResourceModel/Customer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5474">
-          <caret line="328" column="29" selection-start-line="328" selection-start-column="29" selection-end-line="328" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/DB/Ddl/Table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/view/frontend/layout/customer_account_create.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/env.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/ResourceModel/Contact/Collection.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Api/CustomAttributesDataInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="374">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Customer/DataProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Model/AbstractModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/ResourceModel/Contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Setup/InstallSchema.php">
+    <entry file="file://$PROJECT_DIR$/vendor/magento/magento2-base/setup/src/Magento/Setup/Console/Command/AdminUserCreateCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="697">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/BlockNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/AddCustomers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Input/InputInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserGeneration/Console/GenerationCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+          <folding>
+            <element signature="e#51#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Data/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1329">
+          <caret line="388" column="57" lean-forward="true" selection-start-line="388" selection-start-column="57" selection-end-line="388" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-search/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-captcha/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup/src/Magento/Setup/Test/Unit/Module/Dependency/Report/Dependency/Data/DependencyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="71" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/klarna/module-core/Helper/ConfigHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="e#268#320#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/App/Helper/AbstractHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Input/InputDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="51" column="52" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/Customer/Console/Command/CustomerCreateCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/Customer/etc/di.xml___">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/etc/di.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Command/Command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="390" column="21" selection-start-line="387" selection-start-column="5" selection-end-line="390" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="446" column="17" selection-start-line="446" selection-start-column="17" selection-end-line="446" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/composer/src/Composer/Console/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/EmailNotificationInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/Metadata/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="252" column="31" selection-start-line="252" selection-start-column="20" selection-end-line="252" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Api/GroupManagementInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/CustomerExtractor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Controller/Account/CreatePost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Api/AccountManagementInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Api/Data/CustomerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/Customer/Helper/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+          <folding>
+            <element signature="e#44#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Test/Unit/Model/CustomerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="200" column="26" selection-start-line="200" selection-start-column="26" selection-end-line="200" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Interception/Interceptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Customer/Model/EmailNotification/Interceptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Output/Output.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Output/OutputInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#41#92#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/layout/catalog_product_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="16" column="132" selection-start-line="16" selection-start-column="132" selection-end-line="16" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/Magento_Catalog/templates/product/view/button.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/css/source/_email.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/tools/grunt/configs/themes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Viktoria/viktoria_theme/web/css/source/_module.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/layout/user_db_test_index.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ss.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reward.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="73" column="67" lean-forward="true" selection-start-line="73" selection-start-column="67" selection-end-line="73" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/framework/Exception/LocalizedException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/view/frontend/web/address.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/view/frontend/web/js/customer-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/web/js/gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/web/js/related-products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/web/js/storage-manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/web/template/product/addtocart-button.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/web/template/product/image_with_borders.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/web/template/product/addtocompare-button.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/templates/category/products.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/templates/category/image.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/templates/category/description.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/templates/category/cms.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/view/frontend/web/js/addressValidation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-catalog/view/frontend/web/js/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/js/toggle-table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/templates/test_index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Test/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/BlockNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="65" column="61" lean-forward="true" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/requirejs-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/view/frontend/web/css/source/_module.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Controller/Contact/Contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        <state relative-caret-position="510">
+          <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
           <folding>
             <element signature="e#54#104#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Model/Contact.php">
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/Console/CreateCustomer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <element signature="e#53#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Block/Generate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/UserDB/Api/Data/CustomerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/EmailNotification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="365" column="33" lean-forward="true" selection-start-line="365" selection-start-column="33" selection-end-line="365" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Viktoria/GenerateCustomer/Helper/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="100" column="62" lean-forward="true" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-customer/Model/AccountManagement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="903" column="83" selection-start-line="903" selection-start-column="83" selection-end-line="903" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/code/Magento/Customer/Model/AccountManagement/Interceptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dotmailer/dotmailer-magento2-extension/Plugin/CustomerEmailNotificationPlugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="36" />
         </state>
       </provider>
     </entry>

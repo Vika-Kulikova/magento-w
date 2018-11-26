@@ -1,15 +1,18 @@
 <div class="actions new-buttons">
     <div class="primary">
-        <button class="example-button" type="button"><span>On/off the table</span></button>
+        <button class="example-button toggle-button" type="button"><span>On/off the table</span></button>
     </div>
-
 </div>
+
 <div class="container-table">
     <table>
         <tr>
             <th class="col-id">Id</th>
             <th class="col-name">Name</th>
+            <th class="col-surname">Surname</th>
             <th class="col-email">Email</th>
+            <th class="col-default-shipping">Default Shipping</th>
+            <th class="col-default-billing">Default Billing</th>
             <th class="col-comment">Comment</th>
         </tr>
         <?php
@@ -17,7 +20,10 @@
             echo '<tr>
                     <td>' . $contact->getNewContactId() . '</td>
                     <td>' . $contact->getName() . '</td>
+                    <td>' . $contact->getSurname() . '</td>
                     <td>' . $contact->getEmail() . '</td>
+                    <td>' . $contact->getDefaultShipping() . '</td>
+                    <td>' . $contact->getDefaultBilling() . '</td>
                     <td>' . $contact->getComment() . '</td>
                   </tr>';
         }
@@ -29,11 +35,12 @@
     <?php endif ?>
 </div>
 
-
 <script type="text/x-magento-init">
     {
-        ".example-button": {
+        ".toggle-button": {
             "toggleTable": {}
         }
     }
+
 </script>
+

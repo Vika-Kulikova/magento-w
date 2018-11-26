@@ -147,6 +147,8 @@ return [
         'Vertex_Tax' => 1,
         'Viktoria_AddCustomer' => 1,
         'Viktoria_CheckPageLink' => 1,
+        'Viktoria_Customer' => 1,
+        'Viktoria_GenerateCustomer' => 1,
         'Viktoria_UserDB' => 1,
         'Viktoria_UserGeneration' => 1
     ]

@@ -43,6 +43,11 @@ class InputOption
      */
     public function __construct($name, $shortcut = null, $mode = null, $description = '', $default = null)
     {
+        if (is_object($name)) {
+            $foo = false;
+        }
+
+
         if (0 === strpos($name, '--')) {
             $name = substr($name, 2);
         }

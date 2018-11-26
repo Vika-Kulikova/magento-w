@@ -5,6 +5,8 @@
 
 var config = {
     paths: {
-        toggleTable: 'Viktoria_UserDB/js/toggle-table'
+        toggleTable: 'Viktoria_UserDB/js/toggle-table',
+        generateTable: 'Viktoria_UserDB/js/generate-table'
+
     }
 };

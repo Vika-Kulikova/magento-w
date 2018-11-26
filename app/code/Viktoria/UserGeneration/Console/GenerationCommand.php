@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: viktoriiak
- * Date: 26.10.18
- * Time: 11:47
- */
 
 namespace Viktoria\UserGeneration\Console;
 

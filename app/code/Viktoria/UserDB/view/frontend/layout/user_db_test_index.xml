@@ -4,6 +4,8 @@
         <referenceContainer name="content">
             <block class="Viktoria\UserDB\Block\BlockNew" name="blockName"
                    template="Viktoria_UserDB::test_index.phtml"/>
+            <block class="Viktoria\UserDB\Block\Generate" name="generateBlock"
+                   template="Viktoria_UserDB::generate_table.phtml"/>
         </referenceContainer>
     </body>
 </page>
