@@ -2,6 +2,8 @@
 
 namespace Viktoria\GenerateCustomer\Helper;
 
+use Magento\Framework\Controller\ResultFactory;
+
 class Customer extends \Magento\Framework\App\Helper\AbstractHelper
 {
     public const KEY_FIRSTNAME = 'customer-firstname';
@@ -43,6 +45,11 @@ class Customer extends \Magento\Framework\App\Helper\AbstractHelper
     private $accountManagement;
 
     /**
+     * @var \Magento\Framework\DB\Transaction
+     */
+    private $transaction;
+
+    /**
      * @var array
      */
     private $firstname = ['Olivia', 'Oliver',
@@ -74,6 +81,7 @@ class Customer extends \Magento\Framework\App\Helper\AbstractHelper
      * @param \Magento\Customer\Api\GroupManagementInterface $customerGroupManagement
      * @param \Magento\Store\Model\StoreManagerInterface $storeManager
      * @param \Magento\Customer\Api\AccountManagementInterface $accountManagement
+     * @param \Magento\Framework\DB\Transaction $transaction
      * @param \Magento\Framework\App\Helper\Context $context
      */
     public function __construct(
@@ -82,11 +90,13 @@ class Customer extends \Magento\Framework\App\Helper\AbstractHelper
         \Magento\Customer\Api\GroupManagementInterface $customerGroupManagement,
         \Magento\Store\Model\StoreManagerInterface $storeManager,
         \Magento\Customer\Api\AccountManagementInterface $accountManagement,
+        \Magento\Framework\DB\Transaction $transaction,
         \Magento\Framework\App\Helper\Context $context
     ) {
         parent::__construct($context);
         $this->state = $state;
         $this->customerFactory = $customerFactory;
+        $this->transaction = $transaction;
         $this->customerGroupManagement = $customerGroupManagement;
         $this->storeManager = $storeManager;
         $this->accountManagement = $accountManagement;
@@ -96,7 +106,7 @@ class Customer extends \Magento\Framework\App\Helper\AbstractHelper
      * @param int $count
      * @return \Generator|null
      * @throws \Magento\Framework\Exception\LocalizedException
-     * @throws \Exception
+     * @throws \Magento\Framework\Exception\NoSuchEntityException
      */
     public function generateCustomers(int $count): ?\Generator
     {
@@ -113,17 +123,30 @@ class Customer extends \Magento\Framework\App\Helper\AbstractHelper
                 ->setEmail($email);
 
             $store = $this->storeManager->getStore();
-                $customerDataObject->setGroupId(
-                    $this->customerGroupManagement->getDefaultGroup($store->getId())->getId()
-                );
+            $customerDataObject->setGroupId(
+                $this->customerGroupManagement->getDefaultGroup($store->getId())->getId()
+            );
 
             $customerDataObject->setWebsiteId($store->getWebsiteId());
             $customerDataObject->setStoreId($store->getId());
 
-            // @todo: set flag not to send emails
-            // write a plugin that will wrap the method to send emails and not do this if the registry key is present
+//----------------------------------------------------------------------------------
+//            $this->transaction->addObject($customerDataObject);
+//
+//            /**
+//             * @var \Magento\Framework\Controller\Result\Raw $result
+//             */
+//            $result = $this->resultFactory->create(ResultFactory::TYPE_RAW);
+//            try {
+//                $this->transaction->save();
+//            } catch (\Exception $e) {
+//                return $result->setContents($e->getMessage());
+//            }
+ //-----------------------------------------------------------------------------------
+//            // @todo: set flag not to send emails
+//            // write a plugin that will wrap the method to send emails and not do this if the registry key is present
             $customer = $this->accountManagement->createAccount($customerDataObject, $email . '1', '');
-            // restore sending emails
+//            // restore sending emails
             yield $customer;
         }
 

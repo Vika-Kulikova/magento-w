@@ -4,7 +4,11 @@
         <arguments>
             <argument name="commands" xsi:type="array">
                 <item name="create_customer" xsi:type="object">Viktoria\GenerateCustomer\Console\CreateCustomer</item>
+                <item name="add_default_address" xsi:type="object">Viktoria\GenerateCustomer\Console\AddDefaultAddress</item>
             </argument>
         </arguments>
+    </type>
+    <type name="\Magento\Customer\Model\EmailNotification">
+        <plugin name="disable-email-notification" type="Viktoria\GenerateCustomer\Plugin\EmailNotificationPlugin" sortOrder="1" disabled="false"/>
     </type>
 </config>
