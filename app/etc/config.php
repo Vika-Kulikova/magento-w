@@ -148,7 +148,9 @@ return [
         'Viktoria_AddCustomer' => 1,
         'Viktoria_CheckPageLink' => 1,
         'Viktoria_Customer' => 1,
+        'Viktoria_CustomerOrder' => 1,
         'Viktoria_GenerateCustomer' => 1,
+        'Viktoria_Knockout' => 1,
         'Viktoria_UserDB' => 1,
         'Viktoria_UserGeneration' => 1
     ]

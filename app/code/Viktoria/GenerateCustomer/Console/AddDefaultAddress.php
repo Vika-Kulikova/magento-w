@@ -33,11 +33,17 @@ class AddDefaultAddress extends Command
     private $addressRepository;
 
     /**
+     * @var \Magento\Customer\Api\Data\RegionInterfaceFactory
+     */
+    private $regionFactory;
+
+    /**
      * AddDefaultAddress constructor.
      * @param \Magento\Framework\App\State $state
      * @param \Magento\Customer\Api\CustomerRepositoryInterface $customerRepository
      * @param \Magento\Customer\Api\Data\AddressInterfaceFactory $addressDataFactory
      * @param \Magento\Customer\Api\AddressRepositoryInterface $addressRepository
+     * @param \Magento\Customer\Api\Data\RegionInterfaceFactory $regionFactory
      * @param null $name
      */
     public function __construct(
@@ -45,13 +51,16 @@ class AddDefaultAddress extends Command
         \Magento\Customer\Api\CustomerRepositoryInterface $customerRepository,
         \Magento\Customer\Api\Data\AddressInterfaceFactory $addressDataFactory,
         \Magento\Customer\Api\AddressRepositoryInterface $addressRepository,
+        \Magento\Customer\Api\Data\RegionInterfaceFactory $regionFactory,
         $name = null
-    ) {
+    )
+    {
         parent::__construct($name);
         $this->state = $state;
         $this->customerRepository = $customerRepository;
         $this->addressRepository = $addressRepository;
         $this->addressDataFactory = $addressDataFactory;
+        $this->regionFactory = $regionFactory;
     }
 
     /**
@@ -95,7 +104,6 @@ class AddDefaultAddress extends Command
         $output->writeln("<comment>Address Billing Address ID: {$address->getId()}</comment>\n");
         $output->writeln("<comment>Address Billing Address:\n {$street} </comment>\n");
         $output->writeln("<comment>Address Shipping Address ID: {$address->getId()}</comment>\n");
-//        $output->writeln("<comment>Address Shipping Address:\n {$address->getStreet()[1]} \n</comment>");
         $output->writeln("<comment>Customer Shipping Address:\n {$address->getStreet()[0]} \n {$address->getCity()}, {$address->getRegion()->getRegion()}, {$address->getPostcode()} \n {$address->getCountryId()}</comment>");
     }
 
@@ -121,11 +129,11 @@ class AddDefaultAddress extends Command
         $this->state->setAreaCode('frontend');
         $customer = $this->getCustomerById($id);
 
-        if ($customer->getDefaultShipping()) {
+        if ($customer->getDefaultShipping() === null) {
             $this->createDefaultShippingAddress($customer);
         }
 
-        if ($customer->getDefaultBilling()) {
+        if ($customer->getDefaultBilling() === null) {
             $this->createDefaultBillingAddress($customer);
         }
 
@@ -138,13 +146,17 @@ class AddDefaultAddress extends Command
      */
     private function createDefaultShippingAddress($customer): void
     {
+        $region = $this->regionFactory->create();
+        $region->setRegionCode('10019')
+            ->setRegion('Hudson')
+            ->setRegionId(35);
         $address = $this->addressDataFactory->create();
         $address->setCustomerId($customer->getId())
             ->setFirstname($customer->getFirstname())
             ->setLastname($customer->getLastname())
             ->setCity('New York')
             ->setCountryId('US')
-//                ->setRegion(RegionInterface, 'Hudson')
+            ->setRegion($region)
             ->setStreet(['Commerce St'])
             ->setPostcode('10532')
             ->setTelephone(123123123)
@@ -159,13 +171,17 @@ class AddDefaultAddress extends Command
      */
     private function createDefaultBillingAddress($customer): void
     {
+        $region = $this->regionFactory->create();
+        $region->setRegionCode('10019')
+            ->setRegion('Hudson')
+            ->setRegionId(35);
         $address = $this->addressDataFactory->create();
         $address->setCustomerId($customer->getId())
             ->setFirstname($customer->getFirstname())
             ->setLastname($customer->getLastname())
             ->setCity('Las Vegas')
             ->setCountryId('US')
-//                ->setRegion(RegionInterface, 'Hudson')
+            ->setRegion($region)
             ->setStreet(['Vegas St'])
             ->setPostcode('10532')
             ->setTelephone(1225151)

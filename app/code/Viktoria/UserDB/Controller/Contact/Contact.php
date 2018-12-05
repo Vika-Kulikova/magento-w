@@ -59,3 +59,4 @@ class Contact extends \Magento\Framework\App\Action\Action
         return $result->setContents('Successfully saved models!');
     }
 }
+
